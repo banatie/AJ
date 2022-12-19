@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div>How about now</div>
+    <div>How about now. This Eiji Eiji Eiji Iriyama</div>
   );
 }
 
