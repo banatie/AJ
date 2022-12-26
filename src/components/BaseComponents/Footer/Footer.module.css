@@ -1,0 +1,21 @@
+.footer {
+  /* flex-flow: column; */
+  display: flex;
+  justify-content: center;
+}
+
+.footer-list {
+  /* flex-flow: row wrap; */
+  list-style-type: none;
+  
+  display: flex;
+}
+
+.footer-item {
+  margin-right: 10px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.26); */
+}

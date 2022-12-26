@@ -1,6 +1,13 @@
+import Footer from "./components/BaseComponents/Footer/Footer";
+import Header from "./components/BaseComponents/Header/Header";
+
+
 function App() {
   return (
-    <div>How about now. This Eiji Eiji Eiji Iriyama</div>
+    <div>
+      <Header></Header>
+      <Footer></Footer>
+    </div>
   );
 }
 
