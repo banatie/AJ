@@ -1,5 +1,5 @@
 const COLORS = {
-  grey1: '',
+  grey1: '#fefefe',
   grey2: '',
   grey3: '',
   grey4: '',
