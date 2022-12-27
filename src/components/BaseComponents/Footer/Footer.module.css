@@ -8,15 +8,16 @@
 .footer-list {
   /* flex-flow: row wrap; */
   list-style-type: none;
-  
   display: flex;
 }
 
 .footer-item {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 
 .footer-item a {
+  font: normal normal 400 16px/24px adobe-clean,sans-serif;
   text-decoration: none;
+  color: ;
   /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.26); */
 }
