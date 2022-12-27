@@ -11,15 +11,15 @@ const Hero = () => {
   const heroMessage = 'Website is Playground';
   const [isHeroMessageVisible, setHeroMessageVisible] = useState(false);
 
-  const imgLoadHandler = () => {
+  const imgLoadHandler = (event) => {
     setTimeout(() => {
       setHeroMessageVisible(true);
-    }, 1200);
+    }, 1800);
   };
 
   return (
     <div className={styles.hero}>
-      <img src={colorful_light_bulb} alt="light bulb" onLoad={imgLoadHandler} />
+      <img src={colorful_light_bulb} alt="Light bulb" onLoad={imgLoadHandler} />
       {isHeroMessageVisible && <div className={styles['hero-message']}>{heroMessage}</div>}
     </div>
   );
