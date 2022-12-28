@@ -1,3 +1,4 @@
+/* Mobile*/
 .hero {
   position: relative;
   text-align: center;
@@ -9,7 +10,7 @@
   left: 50%;
   color: white;
   transform: translate(-50%, -50%);
-  font: normal normal 400 100px/100px adobe-clean,sans-serif;
+  font: normal normal 400 64px/64px adobe-clean,sans-serif;
   text-shadow: #fc0 1px 0 10px;
 }
 
@@ -23,7 +24,23 @@
   object-fit: cover;
 }
 
-@media (min-width: 768px) {
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .hero-message {
+    font: normal normal 400 100px/100px adobe-clean,sans-serif;
+  }
+
+  .hero img {
+    height: 640px;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {
+  .hero-message {
+    font: normal normal 400 100px/100px adobe-clean,sans-serif;
+  }
+
   .hero img {
     height: 640px;
   }
