@@ -20,3 +20,16 @@ You may also see any lint errors in the console.
 |Base Color(70%)|XXX|
 |Main Color(25%)|XXX|
 |Accent Color(5%)|XXX|
+
+## CSS Coding Strategy
+Mobile First Implementation
+.classname {}
+@media screen and (min-width: 480px) {
+ .classname {}
+}
+@media screen and (min-width: 768px) {
+ .classname {}
+}
+@media screen and (min-width: 1024px) {
+ .classname {}
+}
