@@ -1,14 +1,15 @@
-import Header from "./components/BaseComponents/Header/Header";
-import Hero from "./components/BaseComponents/Hero/Hero";
-import Footer from "./components/BaseComponents/Footer/Footer";
+import Header from "./components/BasicComponents/Header/Header";
+import Footer from "./components/BasicComponents/Footer/Footer";
+
+import Content from "./components/Content/Content";
 
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Hero></Hero>
-      <Footer></Footer>
+      <Content></Content>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

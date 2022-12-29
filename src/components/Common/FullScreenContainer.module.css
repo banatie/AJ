@@ -1,0 +1,11 @@
+.full-screen-container {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-color: grey;
+  border: solid 1px white;
+
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+}

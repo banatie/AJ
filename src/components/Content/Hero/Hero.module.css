@@ -2,6 +2,8 @@
 .hero {
   position: relative;
   text-align: center;
+  display: block;
+  scroll-snap-align: start;
 }
 
 .hero-message {
@@ -9,9 +11,21 @@
   top: 50%;
   left: 50%;
   color: white;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
   font: normal normal 400 64px/64px adobe-clean,sans-serif;
   text-shadow: #fc0 1px 0 10px;
+
+	opacity: 0;
+	animation: slide-in-anim 0.8s ease-out forwards;
+}
+@keyframes slide-in-anim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-50%, -50%);
+	}
 }
 
 .hero-button {
@@ -31,17 +45,10 @@
   }
 
   .hero img {
-    height: 640px;
+    height: 720px;
   }
 }
 
 /* Laptop */
 @media screen and (min-width: 1024px) {
-  .hero-message {
-    font: normal normal 400 100px/100px adobe-clean,sans-serif;
-  }
-
-  .hero img {
-    height: 640px;
-  }
 }
