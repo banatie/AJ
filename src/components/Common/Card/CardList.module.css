@@ -1,3 +1,18 @@
+/* Mobile */
 .card-list {
-  display: flex;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+
+  padding-inline-start: 0;
+
+  padding: 0 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-list {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  }
 }

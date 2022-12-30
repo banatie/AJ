@@ -1,8 +1,11 @@
+/* Mobile */
 .card {
   list-style: none;
   /* border-radius: 8px; */
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
 
-  width: 38vh;
-  margin-right: 24px;
+@media screen and (min-width: 768px) {
+  .card {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
 }

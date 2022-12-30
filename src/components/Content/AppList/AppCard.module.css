@@ -1,9 +1,11 @@
+/* Mobile */
 .app-card {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .app-card h3 {
-  font: normal normal 600 32px/32px adobe-clean,sans-serif;
+  font: normal normal 600 24px/24px adobe-clean,sans-serif;
   color: white;
   padding-bottom: 24px;
 
@@ -19,4 +21,10 @@
   margin-right: auto;
 
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-card h3 {
+    font: normal normal 600 32px/32px adobe-clean,sans-serif;
+  }
 }

@@ -1,7 +1,8 @@
+/* Mobile */
 .full-screen-container {
   height: 100%;
   width: 100%;
-  padding: 4vh 5vh 0;
+  padding-top: 4vh;
 
   display: block;
   /* border: solid 1px grey; */
@@ -13,5 +14,13 @@
 }
 
 .container-title {
-  font: normal normal 600 64px/64px adobe-clean,sans-serif;
+  font: normal normal 600 48px/48px adobe-clean,sans-serif;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container-title {
+    font: normal normal 600 64px/64px adobe-clean,sans-serif;
+  }
+
 }
