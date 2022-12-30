@@ -1,5 +1,4 @@
 import Header from "./components/BasicComponents/Header/Header";
-
 import Content from "./components/Content/Content";
 
 

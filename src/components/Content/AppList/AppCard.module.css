@@ -1,0 +1,22 @@
+.app-card {
+  position: relative;
+}
+
+.app-card h3 {
+  font: normal normal 600 32px/32px adobe-clean,sans-serif;
+  color: white;
+  padding-bottom: 24px;
+
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.app-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+}

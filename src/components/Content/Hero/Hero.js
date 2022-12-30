@@ -14,7 +14,7 @@ const Hero = () => {
   const imgLoadHandler = (event) => {
     setTimeout(() => {
       setHeroMessageVisible(true);
-    }, 800);
+    }, 350);
   };
 
   return (

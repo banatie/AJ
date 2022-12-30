@@ -2,8 +2,10 @@
 .header {
   display: block;
   padding: 0 8px;
-  height: 56px;
+  /* height: 56px; */
+  height: 8vh;
   background-color: white;
+  /* background-color: #DEDCDE; */
   color: white;
 
   position: fixed;

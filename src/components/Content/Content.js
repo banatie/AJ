@@ -1,5 +1,6 @@
-import AppList from './AppList/AppList';
 import Hero from './Hero/Hero';
+import AppList from './AppList/AppList';
+import BadUxList from './BadUxList/BadUxList';
 import styles from './Content.module.css';
 
 const Content = () => {
@@ -7,8 +8,7 @@ const Content = () => {
     <div className={styles.content}>
       <Hero></Hero>
       <AppList></AppList>
-      <AppList></AppList>
-      <AppList></AppList>
+      <BadUxList></BadUxList>
     </div>
   );
 };
