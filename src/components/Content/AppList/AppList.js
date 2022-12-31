@@ -8,21 +8,25 @@ const AppList = () => {
   const apps = [
     {
       title: 'Vending Machine',
+      subTitle: 'React Basics',
       image: vendingMachineImage,
       imageAlt: 'Image of Vending Machine',
       url: '/'
     }, {
       title: 'Form',
+      subTitle: 'Form + Email',
       image: vendingMachineImage,
       imageAlt: 'Image of Vending Machine',
       url: 'https://google.com'
     }, {
       title: 'API Integration',
+      subTitle: 'Jam Stack',
       image: vendingMachineImage,
       imageAlt: 'Image of Vending Machine',
       url: 'https://google.com'
     }, {
-      title: 'API Integration',
+      title: 'Vending Machine 2',
+      subTitle: 'DB Integration',
       image: vendingMachineImage,
       imageAlt: 'Image of Vending Machine',
       url: 'https://google.com'
@@ -35,6 +39,7 @@ const AppList = () => {
         {apps.map((app) => (
           <AppCard
             title={app.title}
+            subTitle={app.subTitle}
             image={app.image}
             alt={app.imageAlt}
             url={app.url}

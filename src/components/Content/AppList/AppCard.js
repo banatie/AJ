@@ -9,6 +9,7 @@ const AppCard = (props) => {
         <img src={props.image} alt={props.imageAlt} />
       </a>
       <h3>{props.title}</h3>
+      <h4>{props.subTitle}</h4>
     </Card>
   );
 };
