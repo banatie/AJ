@@ -30,7 +30,7 @@ const BadUxList = () => {
   ];
 
   return (
-    <FullScreenContainer title="Codes to Learn">
+    <FullScreenContainer title="Bad UX Apps">
       <CardList>
         {uxs.map((uxCard) => (
           <UxCard
