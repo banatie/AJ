@@ -26,7 +26,7 @@ const AppList = () => {
       url: 'https://google.com'
     }, {
       title: 'Vending Machine 2',
-      subTitle: 'DB Integration',
+      subTitle: 'DB(Azure Cosmos) + User Login(Cookies)',
       image: vendingMachineImage,
       imageAlt: 'Image of Vending Machine',
       url: 'https://google.com'
