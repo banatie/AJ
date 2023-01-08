@@ -5,6 +5,9 @@ import AppCard from './AppCard';
 import vendingMachineImage from './images/vending_machine.jpeg';
 
 const AppList = () => {
+  const title = 'React Apps';
+  const subtitle = 'Apps that I built in order to understand the concepts of React.';
+
   const apps = [
     {
       title: 'Vending Machine',
@@ -34,7 +37,7 @@ const AppList = () => {
   ];
 
   return (
-    <FullScreenContainer title="Codes to Learn">
+    <FullScreenContainer title={title} subtitle={subtitle} >
       <CardList>
         {apps.map((app) => (
           <AppCard
